@@ -3,6 +3,7 @@ import './newEvents.css';
 import { Link } from 'react-router-dom';
 import EventImage from '../images/event.png';
 
+
 export class NewEvents extends React.Component {
   constructor(props) {
     super(props);
@@ -30,8 +31,112 @@ export class NewEvents extends React.Component {
 
   render() {
     return (
-      <section>
-      </section>
+      <div class="events_container">
+        <div class="events_row">
+          <div class="event">
+            <div class="event_img">
+              <a href="#"> <img class="img_fill_div" src={EventImage} /> </a>
+            </div>
+            <a href="#">  <div class="event_info">
+              این یک ایونت است. هادی حجت برگزاری آن را بر عهده دارد. یکشنبه صبح ساعت ۱۰.
+            </div></a>
+          </div>
+          <div class="event">
+            <div class="event_img">
+              <a href="#"> <img class="img_fill_div" src={EventImage} /> </a>
+            </div>
+            <a href="#">  <div class="event_info">
+              این یک ایونت است. هادی حجت برگزاری آن را بر عهده دارد. یکشنبه صبح ساعت ۱۰.
+            </div></a>
+          </div>
+          <div class="event">
+            <div class="event_img">
+              <a href="#"> <img class="img_fill_div" src={EventImage} /> </a>
+            </div>
+            <a href="#">  <div class="event_info">
+              این یک ایونت است. هادی حجت برگزاری آن را بر عهده دارد. یکشنبه صبح ساعت ۱۰.
+            </div></a>
+          </div>
+          <div class="event">
+            <div class="event_img">
+              <a href="#"> <img class="img_fill_div" src={EventImage} /> </a>
+            </div>
+            <a href="#">  <div class="event_info">
+              این یک ایونت است. هادی حجت برگزاری آن را بر عهده دارد. یکشنبه صبح ساعت ۱۰.
+            </div></a>
+          </div>
+        </div>
+
+        <div class="events_row">
+          <div class="event">
+            <div class="event_img">
+              <a href="#"> <img class="img_fill_div" src={EventImage} /> </a>
+            </div>
+            <a href="#">  <div class="event_info">
+              این یک ایونت است. هادی حجت برگزاری آن را بر عهده دارد. یکشنبه صبح ساعت ۱۰.
+            </div></a>
+          </div>
+          <div class="event">
+            <div class="event_img">
+              <a href="#"> <img class="img_fill_div" src={EventImage} /> </a>
+            </div>
+            <a href="#">  <div class="event_info">
+              این یک ایونت است. هادی حجت برگزاری آن را بر عهده دارد. یکشنبه صبح ساعت ۱۰.
+            </div></a>
+          </div>
+          <div class="event">
+            <div class="event_img">
+              <a href="#"> <img class="img_fill_div" src={EventImage} /> </a>
+            </div>
+            <a href="#">  <div class="event_info">
+              این یک ایونت است. هادی حجت برگزاری آن را بر عهده دارد. یکشنبه صبح ساعت ۱۰.
+            </div></a>
+          </div>
+          <div class="event">
+            <div class="event_img">
+              <a href="#"> <img class="img_fill_div" src={EventImage} /> </a>
+            </div>
+            <a href="#">  <div class="event_info">
+              این یک ایونت است. هادی حجت برگزاری آن را بر عهده دارد. یکشنبه صبح ساعت ۱۰.
+            </div></a>
+          </div>
+        </div>
+
+        <div class="events_row">
+          <div class="event">
+            <div class="event_img">
+              <a href="#"> <img class="img_fill_div" src={EventImage} /> </a>
+            </div>
+            <a href="#">  <div class="event_info">
+              این یک ایونت است. هادی حجت برگزاری آن را بر عهده دارد. یکشنبه صبح ساعت ۱۰.
+            </div></a>
+          </div>
+          <div class="event">
+            <div class="event_img">
+              <a href="#"> <img class="img_fill_div" src={EventImage} /> </a>
+            </div>
+            <a href="#">  <div class="event_info">
+              این یک ایونت است. هادی حجت برگزاری آن را بر عهده دارد. یکشنبه صبح ساعت ۱۰.
+            </div></a>
+          </div>
+          <div class="event">
+            <div class="event_img">
+              <a href="#"> <img class="img_fill_div" src={EventImage} /> </a>
+            </div>
+            <a href="#">  <div class="event_info">
+              این یک ایونت است. هادی حجت برگزاری آن را بر عهده دارد. یکشنبه صبح ساعت ۱۰.
+            </div></a>
+          </div>
+          <div class="event">
+            <div class="event_img">
+              <a href="#"> <img class="img_fill_div" src={EventImage} /> </a>
+            </div>
+            <a href="#">  <div class="event_info">
+              این یک ایونت است. هادی حجت برگزاری آن را بر عهده دارد. یکشنبه صبح ساعت ۱۰.
+            </div></a>
+          </div>
+        </div>
+      </div>
     );
   }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-import './Login.css';
-import { handleErrors } from '../function/handleErrors';
+import './login.css';
+import { handleErrors } from '../functions/handleErrors';
 
 export class Login extends React.Component {
   constructor(props) {
@@ -15,7 +15,7 @@ export class Login extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  handleChange() {
+  handleChange(event) {
     const target = event.target;
     const value = target.value;
     const name = target.name;
@@ -41,7 +41,12 @@ export class Login extends React.Component {
 
   render() {
     return (
-      <div>
+      <div class="login_container">
+        <p class="login_text">ورود</p>
+        <input class="login_input" type="text" placeholder="username" name="username" onChange={this.handleChange} required />
+        <input class="login_input" type="password" placeholder="password" name=" password" onChange={this.handleChange} required />
+        <br />
+        <input class="login_button" type="submit" value="ورود"></input>
       </div>
     );
   }
